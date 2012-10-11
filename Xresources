@@ -1,0 +1,13 @@
+!! ~/.Xresources
+
+XTerm*termName: xterm-256color
+XTerm*geometry: 120x30
+XTerm*faceName: ProggyClean
+XTerm*faceSize: 10
+
+URxvt*transparent: false
+URxvt*background: black
+URxvt*scrollBar: false
+URxvt*geometry: 140x40
+URxvt*borderLess: true
+URxvt*foreground: #A8A8A8
