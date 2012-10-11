@@ -1,4 +1,4 @@
 MyLinuxIDE
 ==========
 
-My Linux IDE setup using Xterm, Zsh, Tmux and Vim
+My Linux IDE setup using Xterm, Zsh, Tmux and Vim.
