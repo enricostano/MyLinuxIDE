@@ -82,3 +82,25 @@ nnoremap <silent> ,F :let word=expand("<cword>")<CR>:vsp<CR>:wincmd w<cr>:exec("
 nnoremap <silent> ,gf :vertical botright wincmd f<CR>
 
 let mapleader = ","
+
+" Fix up C-motion keys
+map  <Esc>[1;5A <C-Up>
+map! <Esc>[1;5A <C-Up>
+map  <Esc>[1;5B <C-Down>
+map! <Esc>[1;5B <C-Down>
+map  <Esc>[1;5C <C-Right>
+map! <Esc>[1;5C <C-Right>
+map  <Esc>[1;5D <C-Left>
+map! <Esc>[1;5D <C-Left>
+map  <Esc>[1;5F <C-End>
+map! <Esc>[1;5F <C-End>
+map  <Esc>[1;5H <C-Home>
+map! <Esc>[1;5H <C-Home>
+map  <Esc>[2;5~ <C-Insert>
+map! <Esc>[2;5~ <C-Insert>
+map  <Esc>[3;5~ <C-Delete>
+map! <Esc>[3;5~ <C-Delete>
+map  <Esc>[5;5~ <C-PageUp>
+map! <Esc>[5;5~ <C-PageUp>
+map  <Esc>[6;5~ <C-PageDown>
+map! <Esc>[6;5~ <C-PageDown>
