@@ -33,6 +33,10 @@ set wildmenu
 
 set nocompatible
 
+set laststatus=2
+
+set statusline=%<\ %t\ %m%r%y%w%=Col:\ \%c\ Lin:\ \%l\/\%L\ 
+
 filetype off
 
 set rtp+=~/.vim/bundle/vundle/
@@ -52,6 +56,7 @@ Bundle 'scrooloose/nerdcommenter'
 Bundle 'tpope/vim-rails.git'
 Bundle 'mattn/webapi-vim'
 Bundle 'mattn/gist-vim'
+Bundle 'vim-scripts/ShowTrailingWhitespace'
 
 " vim-scripts repos
 "Bundle 'L9'
